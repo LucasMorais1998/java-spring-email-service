@@ -1,5 +1,5 @@
-package com.youtube.javaspringemailservice.core;
+package com.youtube.javaspringemailservice.core.usecases;
 
 public interface EmailSenderUseCase {
-    void sendEmail(String to, String subject, String body);
+    void sendEmail(String toEmail, String subject, String body);
 }
